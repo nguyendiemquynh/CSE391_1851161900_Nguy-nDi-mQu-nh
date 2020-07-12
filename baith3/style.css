@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 160px;
+    background-color: #4385c1;
+}
+.quickNav{
+    width: 33%;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 110px;
+    vertical-align: top;
+    color: white;
+    height: 100px;
+}
+.quickNav li{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+.quickNav li:hover{
+    cursor: pointer;
+    color: blue;
+}
+.Branding{
+    width: 32%;
+    display: inline-block;
+    color: white;
+}
+.Branding li{
+    list-style-type: none;
+    text-align: center;
+}
+.Utilities{
+    width: 32%;
+    display: inline-block;
+    line-height: 50px;
+}
+.Utilities li{
+    width: 35%;
+    height: 35px;
+    list-style-type: none;
+    display: inline-block;
+    /* float: right;      */
+    color: white; 
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 18px;
+    line-height: 33px;
+}
+.Utilities li:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+.mainNav{
+    width: 100%;
+    height: 60px;
+    background-color: #043867;
+
+}
+.mainNav li{
+    display: inline-block;
+    list-style-type: none;
+    width: 19.7%;
+    height:100%;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    background-color: #043867;
+}
+.mainNav li:hover{
+    cursor: pointer;
+    background-color: #002342;
+}
+#Hero{
+    width: 100%;
+    height: 400px;
+}
+#image{
+    background-image: url("images/hero.jpg");
+    width: 92%;
+    height: 90%;
+    margin: 50px auto;
+}
+#Slogan{
+    width: 100%;
+    height: 130px;
+    background-color: #7aa120;
+}
+#box1{
+    width: 39%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    line-height: 130px;
+    font-size: 50px;
+}
+#box2{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    line-height: 60px;
+    color: white;
+}
+#callOut_Blocks{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#callOut_Blocks div{
+    width: 32%;
+    height: 300px;
+    background-color: #e7ecf0;
+    margin: 10px;
+    color: #34383c;
+}
+#callOut_Blocks div h1{
+    color: rgb(101, 83, 234);
+    margin: 30px;
+}
+#callOut_Blocks div p{
+    margin: 30px;
+    font-size: 18px;
+}
+#eventBlock{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+}
+#eventBlock div{
+    width: 32%;
+    height: 300px;
+    margin: 10px;
+    color: white;
+}
+#eventBlock div p{
+    font-size: 30px;
+    margin: 50px;
+}
+#navButton{
+    color:  rgb(101, 83, 234);;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+}
+#navButton div{
+    margin: 10px;
+    width: 24%;
+    border: 1px solid  rgb(101, 83, 234);;  
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    line-height: 45px;
+}
+#navButton div:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+#footerNav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+#footerNav ul li{
+    list-style-type: none;
+}
+#footerNav a{
+    text-decoration: none;
+    color: #81858a;
+}
+#footerNav h3 a{
+    color: white;
+}
+#footerNav div{
+    margin: 10px;
+    width: 25%;
+}
