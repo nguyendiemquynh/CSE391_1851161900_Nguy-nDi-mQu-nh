@@ -1,0 +1,76 @@
+.container{
+    /* padding: 16px; */
+}
+.pi-wrap{
+    padding: 9px 8px 8px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+}
+.pi-text{
+    font-size: 20px;
+    color: blue;
+}
+.pl-lolo{
+    padding: 15px 15px 15px 8px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    margin-bottom: 10px;
+   
+}
+.label-input{
+    font-size: 13px;
+    line-height: 38px;
+    text-align: center;
+   
+}
+.input-pi{
+    height: auto ;
+    background-color: blue;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.none-padding-left{
+    padding-left: 0px !important;
+}
+.pi-from{
+    margin-bottom: 10px;
+}
+.yo-wrap{
+    padding: 9px 8px 8px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+    
+
+}
+.pe-leve{
+    padding: 15px 15px 15px 8px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.se-form{
+    margin-bottom: 20px; 
+}
+.jo-from{
+    padding: 9px 8px 8px 0px;
+    box-sizing: border-box;
+    border-bottom: 2px solid blue;
+    margin-bottom: 20px;
+
+}
+.em-form{
+    margin-bottom: 20px;
+}
+.span{
+    content: "*";
+    color: red;
+}
+.post{
+    
+}
